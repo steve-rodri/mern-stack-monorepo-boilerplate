@@ -1,0 +1,20 @@
+{
+  "name": "mern-stack-boilerplate",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "src/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-monorepo": "^0.3.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "start": "lerna bootstrap && lerna run start --parallel"
+  }
+}
