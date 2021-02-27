@@ -4,7 +4,7 @@ import { Button } from "@mern-stack-boilerplate/storybook";
 const App = () => {
   return (
     <div className="App">
-      <Button primary>Button</Button>
+      <Button secondary width="600px">Button</Button>
     </div>
   );
 };
